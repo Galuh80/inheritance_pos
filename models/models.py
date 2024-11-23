@@ -16,14 +16,3 @@
 #     def _value_pc(self):
 #         for record in self:
 #             record.value2 = float(record.value) / 100
-from odoo import models, api
-
-class PosConfig(models.Model):
-    _inherit = 'pos.config'
-
-    @api.model
-    def disable_price_disc_buttons(self):
-        return {
-            'price_control_disabled': True,
-            'discount_control_disabled': True
-        }

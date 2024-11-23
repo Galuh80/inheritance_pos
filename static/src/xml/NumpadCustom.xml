@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="point_of_sale.NumpadWidget" t-inherit="point_of_sale.NumpadWidget" t-inherit-mode="extension" owl="1">
+        <xpath expr="//div[contains(@class, 'numpad')]" position="replace">
+            <div class="numpad">
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="1">1</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="2">2</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="3">3</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action="+10">+10,000</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="4">4</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="5">5</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="6">6</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action="+20">+50,000</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="7">7</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="8">8</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="9">9</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action="+50">+100,000</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action="+/-">+/-</button>
+                <button class="input-button number-char" t-on-click="_onClickNumpad" data-action="0">0</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action=".">.</button>
+                <button class="input-button" t-on-click="_onClickNumpad" data-action="Backspace">⌫</button>
+            </div>
+        </xpath>
+    </t>
+</templates>
