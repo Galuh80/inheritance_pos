@@ -33,14 +33,16 @@ Before running this project, make sure you have installed some of the tools belo
    ```sh
    source env/bin/activate
    ```
+3. Install requirements
+   ```sh
+   pip install -r requirements.txt
+   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
    
 1. Install module
-   ![Alt text](odoo-14.0/Screenshots/odoo1.png)
-   ![Alt text](odoo-14.0/Screenshots/odoo2.png)
-
+   ![Alt text](static/src/images/1.png)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
