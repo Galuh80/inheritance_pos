@@ -27,34 +27,20 @@ Before running this project, make sure you have installed some of the tools belo
 
 1. Clone the repo
    ```sh
-   https://github.com/Galuh80/odoo-docker.git
+   https://github.com/Galuh80/inheritance_pos.git
    ```
-2. Move to directory
+2. Activate your env
    ```sh
-   cd odoo-docker/
+   source env/bin/activate
    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-1. Install Docker extension in VS Code
-   ![Alt text](odoo-14.0/Screenshots/odoo3.png)
-
-1. Run docker-compose
-   - Right click in docker-compose.yml then choose docker-compose up
    
-2. Install module
+1. Install module
    ![Alt text](odoo-14.0/Screenshots/odoo1.png)
    ![Alt text](odoo-14.0/Screenshots/odoo2.png)
 
-<!-- USAGE EXAMPLES -->
-## API Swagger
-You can access the API at the following URL:
-
-1. API Odoo
-   ```sh
-   http://localhost:8069/api/room_booking/status/
-   ```
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
